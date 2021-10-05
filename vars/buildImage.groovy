@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@Library('somelib')
+@Library('jenkins-shared-library')
 import com.example.Docker
 
 def call(String imageName){
